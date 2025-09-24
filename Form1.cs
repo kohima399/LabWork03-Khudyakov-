@@ -41,6 +41,8 @@ namespace LabWork03_Khudyakov_
         private void button2_Click(object sender, EventArgs e)
         {
             double a, b, c, p;//Ввод переменных
+            a = Convert.ToDouble(textBox1.Text); //Считывание данных
+            b = Convert.ToDouble(textBox2.Text); //Считывание данных
         }
 
         private void label8_Click(object sender, EventArgs e)
