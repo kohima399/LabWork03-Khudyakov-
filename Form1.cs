@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace LabWork03_Khudyakov_
 {
@@ -27,21 +28,34 @@ namespace LabWork03_Khudyakov_
 
         }
 
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            int n1;
-            // вызываем метод преобразования
-            bool b = int.TryParse(textBox1.Text, out n1);
-            if (b == false) // если возникла ли ошибка преобразования
-            {              // то выводим сообщение и заканчиваем работу метода
-                MessageBox.Show("Неверный формат числа " + textBox1.Text + "!");
-                return;
-            }
+            double a, b, c, p;//Ввод переменных
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
