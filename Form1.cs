@@ -43,6 +43,8 @@ namespace LabWork03_Khudyakov_
             double a, b, c, p;//Ввод переменных
             a = Convert.ToDouble(textBox1.Text); //Считывание данных
             b = Convert.ToDouble(textBox2.Text); //Считывание данных
+            c = (3 * Math.Sin(a) + 8 * Math.Cos(b) / 2);
+            listBox1.Items.Add(c); //Вывод результата
         }
 
         private void label8_Click(object sender, EventArgs e)
